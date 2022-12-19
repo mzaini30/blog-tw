@@ -1,12 +1,5 @@
 [
 		{
-				"title" : "404",
-				"published_date" : "20221220021018833",
-				"slug" : "404",
-				"text" : "<p><section class=\"section mt-6\">\n    <div class=\"container\">\n        <div class=\"column is-6-desktop is-offset-3-desktop is-8 is-offset-2\">\n            <h1 class=\"title\" style=\"font-size: 400%;\">Page not found</h1>\n<img src=\"https://http.cat/404.jpg\">\n            <div>\n                <a href=\"https://blogzen.js.org\">Back home?</a>\n            </div>\n        </div>\n    </div>\n</section></p>",
-				"excerpt" : "<p><section class=\"section mt-6\">\n    <div class=\"container\">\n        <div class=\"column is-6-desktop is-offset-3-desktop is-8 is-offset-2\">\n         </div></div></section></p>",
-				"cover_image" : ""
-			},{
 				"title" : "Admob",
 				"published_date" : "20221220020718418",
 				"slug" : "admob",

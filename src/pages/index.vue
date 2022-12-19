@@ -1,6 +1,7 @@
 <script setup="">
 import data from "../../tiddlers/published.json";
 import { gambar as gambarDefault } from "../data/default";
+import { stripHtml } from "string-strip-html";
 </script>
 
 <template>
@@ -18,14 +19,19 @@ import { gambar as gambarDefault } from "../data/default";
           <a
             v-if="n == 0"
             :href="`/${x.slug}`"
-            class="rounded shadow flex bg-white"
+            class="rounded shadow flex bg-white gap-2"
           >
-            <img :src="x.cover_image || gambarDefault" :alt="x.title" />
-            <div>
-              <div></div>
-              <div></div>
-            </div> </a
-        ></template>
+            <img
+              class="gambar w-[50%] object-cover flex-grow-0 flex-shrink-0"
+              :src="x.cover_image || gambarDefault"
+              :alt="x.title"
+            />
+            <div class="p-2">
+              <div class="font-bold pb-2">{{ x.title }}</div>
+              <div>{{ stripHtml(x.excerpt).result }}</div>
+            </div>
+          </a></template
+        >
         <div class="font-bold my-2">Tulisan Terbaru</div>
         <div class="grid grid-cols-2 gap-3">
           <template v-for="(x, n) in data">
@@ -36,7 +42,7 @@ import { gambar as gambarDefault } from "../data/default";
             >
               <img
                 :src="x.cover_image || gambarDefault"
-                class="w-full"
+                class="w-full gambar-list-tulisan"
                 :alt="x.title"
               />
               <div class="p-2 text-sm">{{ x.title }}</div>
@@ -48,3 +54,12 @@ import { gambar as gambarDefault } from "../data/default";
     </div>
   </div>
 </template>
+
+<style scoped="">
+.gambar {
+  aspect-ratio: 1 / 1;
+}
+.gambar-list-tulisan {
+  aspect-ratio: 9 / 6;
+}
+</style>
