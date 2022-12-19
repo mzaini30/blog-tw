@@ -1,8 +1,0 @@
-cover_image: romain-vignes-ywqa9IZB-dU-unsplash.jpg
-created: 20220904143017566
-modified: 20221219162550988
-tags: 
-title: First Post
-type: text/vnd.tiddlywiki
-
-This is the first post. It's already published and will get rendered on the [[frontend|http://localhost:3000]]. Click the link or visit https://localhost:3000 in your Browser. Both frontend and this TiddlyWiki will be started by running "npm run dev" or "yarn dev" in the root directory of the repository.

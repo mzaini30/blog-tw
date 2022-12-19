@@ -1,8 +1,27 @@
 {
-  "dependencies": {
-    "tiddlywiki": "^5.2.4"
-  },
+  "name": "iles-app",
+  "version": "0.0.0",
   "scripts": {
-    "dev": "tiddlywiki . --listen"
+    "wiki": "tiddlywiki . --listen",
+    "dev": "iles dev",
+    "build": "iles build",
+    "preview": "iles preview",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "engines": {
+    "node": "^14.18 || >= 16.0.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.40",
+    "iles": "^0.8.4",
+    "typescript": "^4.5",
+    "vite": "3.0.9",
+    "vue-tsc": "^0.38"
+  },
+  "dependencies": {
+    "svelte": "^3.46.5",
+    "tiddlywiki": "^5.2.4",
+    "vite-plugin-windicss": "^1.8.10",
+    "windicss": "^3.5.6"
   }
 }

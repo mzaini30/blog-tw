@@ -1,0 +1,22 @@
+created: 20221203121333143
+modified: 20221219181227004
+published: 20221204015217719
+published_date: 202212200212272
+tags: $:/plugins/adithyab/tiddlyjam/live Published bash blog git
+title: Script untuk Mempermudah Penggunaan Git
+type: text/vnd.tiddlywiki
+
+Clone:
+
+```bash
+git clone --depth 1 git@github.com:user/$1
+```
+
+Upload:
+
+```bash
+git status
+git add .
+git commit -m "Oke"
+git push
+```

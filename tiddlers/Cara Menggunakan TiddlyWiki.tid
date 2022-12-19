@@ -1,0 +1,33 @@
+created: 20221202235010007
+modified: 20221219181029135
+published: 20221204014233879
+published_date: 20221220021029132
+tags: $:/plugins/adithyab/tiddlyjam/live Published TiddlyWiki blog
+title: Cara Menggunakan TiddlyWiki
+type: text/vnd.tiddlywiki
+
+Install:
+
+```bash
+pnpm i -g tiddlywiki
+```
+
+Init Project Baru:
+
+```bash
+tiddlywiki folder --init server
+```
+
+Dev:
+
+```bash
+tiddlywiki . --listen
+```
+
+Build:
+
+```bash
+tiddlywiki . --build
+```
+
+Kalau sudah berhasil install, langsung aja coba [[Plugin TiddlyWiki yang Aku Gunakan]].
