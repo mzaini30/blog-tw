@@ -1,0 +1,21 @@
+cover_image: raphael-schaller-GkinCd2enIY-unsplash.jpg
+created: 20220907205607823
+modified: 20221219162614324
+tags: 
+title: Second Post
+type: text/vnd.tiddlywiki
+
+! How it works
+
+Note how most of the //formatting//, [[external links|https://example.com]], widgets and transclusions get rendered on the [[frontend|http://localhost:3000]]. You may choose which other fields to export/import by configuring the exporter and adjusting the imports on the frontend. For now, I skipped tags, because their listing and linking will not work automatically in the Next.js app. Internal links will ''not'' be working.
+
+I have seen tiddlywiki inline images being published, too, but as they will get wikified/exported as text to "published.json" this is not recommendable. Better put all all your images inside of the "public/img/" folder and link to them like this: 
+
+```
+[img[/img/raphael-schaller-GkinCd2enIY-unsplash.jpg]]
+```
+[img[/img/raphael-schaller-GkinCd2enIY-unsplash.jpg]]
+
+It's not pretty in the tiddlywiki, but works okay on the frontend. The features of Next.js' `<Image />` component with it's optimization will not get used though.
+
+For the title images I added the "cover_image"-field containing only the file name, the path to the "public/img/" folder is added in the [slug].tsx file and hero-post.tsx and post-preview.tsx.

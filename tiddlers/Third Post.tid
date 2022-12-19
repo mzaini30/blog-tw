@@ -1,0 +1,11 @@
+created: 20220907165340969
+modified: 20220909181331751
+tags: 
+title: Third Post
+type: text/vnd.tiddlywiki
+
+<$set name="published-status" filter="[all[current]tag[Published]]" value={{$:/plugins/dd/nextjs-with-tiddlywiki/published-description}} emptyValue={{$:/plugins/dd/nextjs-with-tiddlywiki/unpublished-description}}>
+<<published-status>>
+</$set>
+
+Posts without a given cover_image will display a standard image on the frontend to match with the layout.
