@@ -5,6 +5,10 @@
 - [x] Edit dalam bentuk website Wiki (`pnpm wiki`)
 - [x] Hasil build berupa website statis tanpa JavaScript (`pnpm build`)
 - [x] Auto deploy dengan Github Actions
+- [ ] Styling tipografi belum selesai
+- [x] Membuka Wiki secara acak (mode dev)
+- [x] Favorit Wiki (mode dev)
+- [x] Memperbaiki link yang berubah (mode dev)
 
 ## Instalasi
 
@@ -35,3 +39,7 @@ export default defineConfig({
 ## Mengubah Metadata Default
 
 Di `./src/data/default.js`
+
+## Menambahkan Foto Cover
+
+Pas mengedit postingan di Wiki, di bagian `Add a new field:` isi dengan `cover_image`. Lalu, di bagian `field value`, isi dengan URL gambarnya.
