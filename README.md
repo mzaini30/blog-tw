@@ -1,38 +1,37 @@
-# iles-app
+# Blog Rasa Wiki
 
-[îles]: https://github.com/ElMassimo/iles
-[configuration reference]: https://iles-docs.netlify.app/config
+## Fitur
 
-This template should help get you started developing with [îles].
+- [x] Edit dalam bentuk website Wiki (`pnpm wiki`)
+- [x] Hasil build berupa website statis tanpa JavaScript (`pnpm build`)
+- [x] Auto deploy dengan Github Actions
 
-## Recommended IDE Setup
+## Instalasi
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic `PageComponent` type by default. In most cases this is fine if you don't really care about component prop types outside of templates.
-
-However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can run `Volar: Switch TS Plugin on/off` from VSCode command palette.
-
-## Customize configuration
-
-See îles [Configuration Reference].
-
-## Project Setup
-
-```sh
-npm install
+```bash
+pnpm i
 ```
 
-### Compile and Hot-Reload for Development
+## Mengubah URL Blog
 
-```sh
-npm run dev
+Di `./iles.config`
+
+```diff
+import { defineConfig } from "iles";
+import WindiCSS from "vite-plugin-windicss";
+
+export default defineConfig({
+  svelte: true,
++  siteUrl: "https://blogzen.js.org",
+  vite: {
+    optimizeDeps: {
+      include: ["svelte"],
+    },
+    plugins: [WindiCSS()],
+  },
+});
 ```
 
-### Type-Check, Compile and Minify for Production
+## Mengubah Metadata Default
 
-```sh
-npm run build
-```
+Di `./src/data/default.js`
