@@ -112,9 +112,9 @@
 				"excerpt" : "<pre class=\"hljs\"><code class=\"yaml hljs\"><span class=\"hljs-attr\">name:</span> <span class=\"hljs-string\">Deploy</span>\n\n<span class=\"hljs-attr\">on:</span>\n  <span class=\"hljs-attr\">push:</span>\n    <span class=\"hljs-attr\">branches:</span>\n      <span class=\"hljs-bullet\">-</span> <span class=\"hljs-string\">master</span>\n\n<span class=\"hljs-attr\">jobs:</span>\n  <span class=\"hljs-attr\">deploy:</span>\n    <span class=\"hljs-attr\">runs-on:</span> <span class=\"hljs-string\">ubuntu-18.04</span>\n    <span class=\"hljs-attr\">steps:</span>\n    </code></pre>",
 				"cover_image" : ""
 			},{
-				"title" : "Hello World...",
-				"published_date" : "20221220021205734",
-				"slug" : "hello-world...",
+				"title" : "Hello World",
+				"published_date" : "2022122009290228",
+				"slug" : "hello-world",
 				"text" : "<p>Ini adalah tiddler pertama di <a class=\"tc-tiddlylink tc-tiddlylink-resolves\" href=\"./#tiddlywiki\">TiddlyWiki</a> ini. Lumayan sih. Semoga nyaman.</p><p>Seru juga ternyata. Editnya dalam format <a class=\"tc-tiddlylink tc-tiddlylink-resolves\" href=\"./#tiddlywiki\">TiddlyWiki</a>. Tapi, build-nya jadi bentuk <a class=\"tc-tiddlylink tc-tiddlylink-shadow tc-tiddlylink-resolves\" href=\"./#blog\">blog</a>. Jadinya ringan dan semoga diterima <a class=\"tc-tiddlylink tc-tiddlylink-resolves\" href=\"./#adsense\">Adsense</a>.</p>",
 				"excerpt" : "<p>Ini adalah tiddler pertama di <a class=\"tc-tiddlylink tc-tiddlylink-resolves\" href=\"./#tiddlywiki\">TiddlyWiki</a> ini. Lumayan sih. Semoga nyaman.</p><p>Seru juga ternyata. Editnya dalam format <a class=\"tc-tiddlylink tc-tiddlylink-resolves\" href=\"./#tiddlywiki\">TiddlyWiki</a>. Tapi, build-nya jadi bentuk <a class=\"tc-tiddlylink tc-tiddlylink-shadow tc-tiddlylink-resolves\" href=\"./#blog\">blog</a>. Jadinya ringan dan semoga diterima <a class=\"tc-tiddlylink tc-tiddlylink-resolves\" href=\"./#adsense\">Adsense</a>.</p>",
 				"cover_image" : ""
@@ -175,9 +175,9 @@
 				"excerpt" : "<p>Ada banyak sekali orang yang ingin mengakhiri hidupnya dengan bunuh diri. Aku nggak tau ide ini pertama kali dari siapa. Apakah tayangan <a class=\"tc-tiddlylink tc-tiddlylink-resolves\" href=\"./#tv\">TV</a> yang bertanggung jawab atas keinginan mereka bunuh</p>",
 				"cover_image" : ""
 			},{
-				"title" : "Kekurangan thedev.id",
-				"published_date" : "20221220020941218",
-				"slug" : "kekurangan-thedev.id",
+				"title" : "Kekurangan thedev dot id",
+				"published_date" : "2022122009213198",
+				"slug" : "kekurangan-thedev-dot-id",
 				"text" : "<p>Kekurangannya adalah nggak bisa didaftarkan <a class=\"tc-tiddlylink tc-tiddlylink-resolves\" href=\"./#adsense\">Adsense</a>. Itu aja.</p><p>Fatal sih. Soalnya kan tujuanku ngeblog itu supaya dapat duit.</p><p>Kenapa nggak bisa didaftarkan Adsense? Karena domain thedev.id bisa didaftarkan Adsense. Otomatis, subdomainnya ditolak kalau misalnya domainnya bisa didaftarkan Adsense. Lalu, yang punya thedev.id kan bukan kita, tapi Mas Frans.</p>",
 				"excerpt" : "<p>Kekurangannya adalah nggak bisa didaftarkan <a class=\"tc-tiddlylink tc-tiddlylink-resolves\" href=\"./#adsense\">Adsense</a>. Itu aja.</p><p>Fatal sih. Soalnya kan tujuanku ngeblog itu supaya dapat duit.</p><p>Kenapa nggak bisa didaftarkan Adsense? Karena domain thedev.id bisa didaftarkan Adsense. Otomatis, subdomainnya ditolak</p>",
 				"cover_image" : ""
