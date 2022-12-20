@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@sveltejs/vite-plugin-svelte': ^1.0.0-next.40
+  cup-readdir: ^1.0.3
   iles: ^0.8.4
   kumpulan-tools: ^1.0.0
   string-strip-html: ^13.0.2
@@ -14,6 +15,7 @@ specifiers:
   windicss: ^3.5.6
 
 dependencies:
+  cup-readdir: 1.0.3
   kumpulan-tools: 1.0.0
   string-strip-html: 13.0.2
   svelte: 3.55.0
@@ -575,6 +577,10 @@ packages:
   /csstype/2.6.21:
     resolution: {integrity: sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==}
     dev: true
+
+  /cup-readdir/1.0.3:
+    resolution: {integrity: sha512-jXafQU1SiHd0LeZzOtqDODC42PXUQs7boKyNJM5NvCRa0Oc798O476tb5lxKq9slgC0uLAk0Po5aut4Nku322Q==}
+    dev: false
 
   /debug/4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}

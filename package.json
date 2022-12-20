@@ -19,6 +19,7 @@
     "vue-tsc": "^0.38"
   },
   "dependencies": {
+    "cup-readdir": "^1.0.3",
     "kumpulan-tools": "^1.0.0",
     "string-strip-html": "^13.0.2",
     "svelte": "^3.46.5",

@@ -6,10 +6,16 @@ import { stripHtml } from "string-strip-html";
 const { frontmatter } = usePage();
 frontmatter.title = judul;
 frontmatter.description = deskripsi;
-frontmatter.image = gambarDefault;
 </script>
 
 <template>
+  <Head>
+    <meta property="og:image" :content="gambarDefault" />
+    <meta name="twitter:image" :content="gambarDefault" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@zenia2020" />
+    <meta name="twitter:creator" content="@zenia2020" />
+  </Head>
   <div class="col-span-2">
     <div class="font-bold my-2">Headline</div>
     <template v-for="(x, n) in data">
@@ -33,7 +39,7 @@ frontmatter.image = gambarDefault;
     <div class="grid grid-cols-2 gap-3">
       <template v-for="(x, n) in data">
         <router-link
-          v-if="n > 0 && n < 5"
+          v-if="n > 0 && n < 11"
           class="rounded shadow overflow-hidden bg-white"
           :to="`/${x.slug}`"
         >
