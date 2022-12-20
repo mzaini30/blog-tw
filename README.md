@@ -18,7 +18,7 @@ pnpm i
 
 ## Mengubah URL Blog
 
-Di `./iles.config`
+Di `./iles.config.ts`
 
 ```diff
 import { defineConfig } from "iles";
