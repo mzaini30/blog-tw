@@ -6,9 +6,9 @@
 - [x] Hasil build berupa website statis tanpa JavaScript (`pnpm build`)
 - [x] Auto deploy dengan Github Actions
 - [ ] Styling tipografi belum selesai
-- [x] Membuka Wiki secara acak (mode dev)
-- [x] Favorit Wiki (mode dev)
-- [x] Memperbaiki link yang berubah (mode dev)
+- [x] Membuka Wiki secara acak (mode wiki)
+- [x] Favorit Wiki (mode wiki)
+- [x] Memperbaiki link yang berubah (mode wiki)
 
 ## Instalasi
 
